@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="651.0" prefWidth="948.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXMLDocumentController">
+    <children>
+      <TableView fx:id="tableview" layoutX="456.0" layoutY="42.0" prefHeight="434.0" prefWidth="465.0">
+        <columns>
+          <TableColumn fx:id="firstNameCol" prefWidth="148.0" text="First Name" />
+          <TableColumn fx:id="lastNameCol" prefWidth="151.0" text="Last Name" />
+            <TableColumn fx:id="emailCol" prefWidth="165.0" text="Email" />
+        </columns>
+      </TableView>
+      <Button fx:id="show" layoutX="650.0" layoutY="508.0" mnemonicParsing="false" onAction="#getPerson" text="Show" />
+      <AnchorPane layoutX="120.0" layoutY="183.0" prefHeight="285.0" prefWidth="264.0">
+         <children>
+              <Label fx:id="label" layoutX="-74.0" layoutY="86.0" minHeight="16" minWidth="69" />
+            <TextField fx:id="firstname" layoutX="37.0" layoutY="24.0" />
+            <TextField fx:id="lastname" layoutX="37.0" layoutY="81.0" />
+            <Label layoutX="-91.0" layoutY="29.0" text="First Name" />
+            <Label layoutX="-90.0" layoutY="86.0" text="Last Name" />
+            <Button fx:id="add" layoutX="100.0" layoutY="194.0" mnemonicParsing="false" onAction="#addUser" text="Add" />
+            <TextField fx:id="email" layoutX="37.0" layoutY="143.0" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="45.0" layoutY="331.0" text="Email" />
+    </children>
+</AnchorPane>
