@@ -19,13 +19,13 @@ import javafx.scene.control.cell.PropertyValueFactory;
 
 /**
  *
- * @author Inder
+ * @author Marcelo Monier Jr.
  */
 public class FXMLDocumentController implements Initializable {
     
      String dbHost = "jdbc:mysql://localhost/";
         String dbUser = "root";
-        String dbPassword = "root";
+        String dbPassword = "88030341";
         
      @FXML   
      private TableColumn emailCol; 

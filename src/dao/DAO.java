@@ -12,7 +12,7 @@ import javafxapplication4.Person;
 
 /**
  *
- * @author Inder
+ * @author Marcelo Monier Jr.
  */
 public class DAO {
      private final String userName;
